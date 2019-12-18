@@ -37,6 +37,7 @@ public class User {
 
     private String test;
     public Integer getId() {
+        System.out.println("test");
         return id;
     }
 
