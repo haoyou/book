@@ -1,6 +1,7 @@
 package com.gamll.chy.gmalluser.mapper;
 
-import com.gamll.chy.gmalluser.entity.UmsMember;
+
+import com.chy.gmall.bean.UmsMember;
 import com.gamll.chy.gmalluser.mappers.TkMapper;
 import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Component;
