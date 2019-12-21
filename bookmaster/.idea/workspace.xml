@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1362f63f-371f-46f6-ba23-f74f7c401450" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/chy/bookmaster/entity/Admin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chy/bookmaster/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chy/bookmaster/entity/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +38,7 @@
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
   </component>
@@ -66,7 +65,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/src/main/java/com/chy/bookmaster/entity/User.java" />
   </component>
   <component name="RunManager">
@@ -102,7 +101,9 @@
       <updated>1576166267470</updated>
       <workItem from="1576166273378" duration="1095000" />
       <workItem from="1576167413477" duration="4313000" />
-      <workItem from="1576598336369" duration="5511000" />
+      <workItem from="1576598336369" duration="5916000" />
+      <workItem from="1576762244012" duration="663000" />
+      <workItem from="1576764712339" duration="30000" />
     </task>
     <task id="LOCAL-00001" summary="test github">
       <created>1576601073076</created>
@@ -125,7 +126,21 @@
       <option name="project" value="LOCAL" />
       <updated>1576601801309</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="commit one test file">
+      <created>1576675852908</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1576675852908</updated>
+    </task>
+    <task id="LOCAL-00005" summary="commit second modify">
+      <created>1576676082380</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1576676082380</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,25 +150,27 @@
     <MESSAGE value="test github" />
     <MESSAGE value="entity user" />
     <MESSAGE value="commit all java files" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit all java files" />
+    <MESSAGE value="commit one test file" />
+    <MESSAGE value="commit second modify" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit second modify" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Assign_Data_Sources" timestamp="1576169905920">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Assign_Data_Sources/0.0.1920.1040@0.0.1920.1040" timestamp="1576169905920" />
-    <state x="552" y="178" key="#Notifications" timestamp="1576600988721">
+    <state x="552" y="178" key="#Notifications" timestamp="1576675895434">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="178" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1576600988721" />
+    <state x="552" y="178" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1576675895434" />
     <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1576170489824">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1576170489824" />
-    <state x="457" y="111" key="CommitChangelistDialog2" timestamp="1576601800193">
+    <state x="457" y="111" key="CommitChangelistDialog2" timestamp="1576676081443">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="457" y="111" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1576601800193" />
+    <state x="457" y="111" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1576676081443" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1576601157500">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -202,14 +219,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="613" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576249922220" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1576675718642">
+    <state x="461" y="162" key="SettingsEditor" timestamp="1576764739150">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1576675718642" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1576675831591">
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1576764739150" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1576676140191">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1576675831591" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1576676140191" />
     <state x="763" y="298" key="chooseDestDirectoryDialog" timestamp="1576169616362">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -218,13 +235,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576600935715" />
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1576598360360">
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1576762253366">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576598360360" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576762253366" />
     <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1576675739224">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1576675739224" />
+    <state x="334" y="221" key="new project wizard" timestamp="1576762905717">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="334" y="221" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1576762905717" />
   </component>
 </project>

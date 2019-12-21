@@ -1,10 +1,17 @@
 package com.gamll.chy.gmalluser.entity;
 
+import javax.persistence.*;
 import java.util.Date;
 
+/**
+ * 用户实体类
+ * */
+@Table(name = "ums_member")
 public class UmsMember {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private String id;
-    private String  memberLlevelId;
+    private String  memberLevelId;
     private String  username;
     private String  password;
     private String  nickname;
@@ -32,11 +39,11 @@ public class UmsMember {
     }
 
     public String getMemberLlevelId() {
-        return memberLlevelId;
+        return memberLevelId;
     }
 
     public void setMemberLlevelId(String memberLlevelId) {
-        this.memberLlevelId = memberLlevelId;
+        this.memberLevelId = memberLlevelId;
     }
 
     public String getUsername() {
@@ -179,7 +186,7 @@ public class UmsMember {
     public String toString() {
         return "UmsMember{" +
                 "id='" + id + '\'' +
-                ", memberLlevelId='" + memberLlevelId + '\'' +
+                ", memberLlevelId='" + memberLevelId + '\'' +
                 ", username='" + username + '\'' +
                 ", password='" + password + '\'' +
                 ", nickname='" + nickname + '\'' +

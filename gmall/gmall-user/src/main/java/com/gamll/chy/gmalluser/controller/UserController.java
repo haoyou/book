@@ -1,9 +1,11 @@
 package com.gamll.chy.gmalluser.controller;
 
 import com.gamll.chy.gmalluser.entity.UmsMember;
+import com.gamll.chy.gmalluser.entity.UmsMemberAddress;
 import com.gamll.chy.gmalluser.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
@@ -26,5 +28,12 @@ public class UserController {
     public List<UmsMember> getAllUserInfo(){
         List<UmsMember> umsMembers = userService.getAllUserInfo();
         return umsMembers;
+    }
+
+    @RequestMapping("/getaddress")
+    @ResponseBody
+    public List<UmsMemberAddress> getReceiveAddressByUserId(String id){
+        List<UmsMemberAddress> umsMemberAddress = userService.getUmsMemberAddress(id);
+        return umsMemberAddress;
     }
 }
